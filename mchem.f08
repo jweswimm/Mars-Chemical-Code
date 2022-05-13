@@ -1,8 +1,8 @@
 program JPCE
 !*******************************************************************************
 !* Edited by Antonio Renzaglia and Joseph W. Wimmergren 10.02.19
-!         This code is taken from Stephen's version on Jupiter and adapted
-!     to work on Mars.
+!         This code is taken from Stephen Houston's version on Jupiter and adapted
+!     to work in the atmosphere of Mars.
 !*******************************************************************************
 !* Edited by Stephen J. Houston 2.25.18
 !*******************************************************************************
