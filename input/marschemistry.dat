@@ -1,0 +1,83 @@
+Neutral	List
+1	CO2
+2	CO
+3	O
+4	N2
+5	H2
+6	H
+7	Ar
+8	He
+9	H2O
+
+Ion	List	ERCoeff	TD			!Electron Recombination rates (1/(cm^3*s))
+1	CO2+	4.20E-07	0.75			CO2+ + e- -> CO + O		Schunk and Nagy, 2009
+2	O2+	2.40E-07	0.7			O2+ + e- -> O + O		Schunk and Nagy, 2009
+3	O+	3.26E-12	0.7			O+ + e- -> O		Schunk and Nagy, 2009
+4	CO+	2.75E-07	0.5			CO+ + e- -> O + C		Schunk and Nagy, 2009
+5	HCO+	1.10E-07	1			HCO+ + e- -> CO + H		Moses and Bass, 2000
+6	H+	4.22E-12	0.7			H+ + e- -> H		Schunk and Nagy, 2009
+7	N2+	2.20E-07	0.39			N2+ + e- -> N + N		Schunk and Nagy, 2009
+8	Ar+	1.00E-09	0			Ar+ + e- -> Ar		Gu, 2003
+9	H2+	2.30E-07	0.4			H2+ + e- -> H + H		Kim and Fox, 1994
+10	NO+	4.00E-07	0.5			NO+ + e- -> N + O		Schunk and Nagy, 2009
+11	H3+	4.40E-08	0.5			H3+ + e- -> H + H2		Kim and Fox, 1994		5.60E-08
+12	OH+	3.75E-08	0.5			OH+ + e- -> O + H		Moses and Bass, 2000
+13	ArH+	1.00E-08	0			ArH+ + e- -> Ar + H		Mitchell et al., 2005
+14	N2H+	8.66E-07	0.5			N2H+ + e- -> N + N + H		Mul and McGowan, 1979
+15	HCO2+	1.10E-07	0.5			HCO2+ +e- -> OH+ + CO		Herd, Adams and Smith, 1990		3.40E-07
+16	HOC+	1.10E-07	1			HOC+ + e- -> CO + H		Liszt, Lucas and Black, 2004
+									
+Reaction	List
+X	Y	Z	K	Neutral X	+	Ion Y	-->	Ion Z
+5	6	9	1.00E-09	H2	+	H+	-->	H2+	Cravens, 1987
+3	6	3	3.75E-10	O	+	H+	-->	O+	Anicich and Huntress, 1986
+1	6	5	3.80E-09	CO2	+	H+	-->	HCO+	Moses and Bass, 2000
+6	9	6	6.40E-10	H	+	H2+	-->	H+	Anicich and Huntress, 1986
+5	9	11	2.00E-09	H2	+	H2+	-->	H3+	Kim and Fox, 1994
+3	9	12	1.50E-09	O	+	H2+	-->	OH+	Krasnopolsky, 2002
+4	9	14	2.00E-09	N2	+	H2+	-->	N2H+	Anicich and Huntress, 1986
+2	9	5	2.16E-09	CO	+	H2+	-->	HCO+	Anicich and Huntress, 1986
+2	9	4	6.44E-10	CO	+	H2+	-->	CO+	Anicich and Huntress, 1986
+7	9	13	1.24E-09	Ar	+	H2+	-->	ArH+	Anicich, 1993
+1	9	15	2.35E-09	CO2	+	H2+	-->	HCO2+	Anicich and Huntress, 1986
+3	11	12	8.00E-10	O	+	H3+	-->	OH+	Anicich and Huntress, 1986
+4	11	14	1.30E-09	N2	+	H3+	-->	N2H+	Anicich, 1993
+2	11	5	1.70E-09	CO	+	H3+	-->	HCO+	Anicich, 1993
+7	11	13	3.65E-10	Ar	+	H3+	-->	ArH+	Anicich and Huntress, 1986
+1	11	15	2.00E-09	CO2	+	H3+	-->	HCO2+	Anicich and Huntress, 1986
+6	3	6	6.40E-10	H	+	O+	-->	H+	Moses and Bass, 2000
+5	3	12	1.67E-09	H2	+	O+	-->	OH+	Anicich, 1993
+4	3	10	1.20E-12	N2	+	O+	-->	NO+	Schunk and Nagy, 2009
+1	3	2	1.10E-09	CO2	+	O+	-->	O2+	Schunk and Nagy, 2009Millar et al., 1997
+3	12	2	7.10E-10	O	+	OH+	-->	O2+	Millar et al., 1997
+4	12	14	2.40E-10	N2	+	OH+	-->	N2H+	Anicich, 1993
+2	12	5	3.55E-10	CO	+	OH+	-->	HCO+	Anicich, 1993
+2	12	4	3.55E-10	CO	+	OH+	-->	CO+	Anicich, 1993
+1	12	15	1.10E-09	CO2	+	OH+	-->	HCO2+	Anicich, 1993
+5	7	14	2.00E-09	H2	+	N2+	-->	N2H+	Anicich, 1993
+3	7	3	9.80E-12	O	+	N2+	-->	O+	Schunk and Nagy, 2009
+3	7	10	1.30E-10	O	+	N2+	-->	NO+	Schunk and Nagy, 2009
+1	7	1	8.00E-10	CO2	+	N2+	-->	CO2+	Schunk and Nagy, 2009
+5	4	5	7.50E-10	H2	+	CO+	-->	HCO+	Scott et al., 1997
+5	4	16	7.50E-10	H2	+	CO+	-->	HOC+	Scott et al., 1997
+6	4	6	4.00E-10	H	+	CO+	-->	H+	Scott et al., 1997
+3	4	3	1.40E-10	O	+	CO+	-->	O+	Anicich and Huntress, 1986
+1	4	1	1.00E-19	CO2	+	CO+	-->	CO2+	Anicich and Huntress, 1986
+1	14	15	1.40E-09	CO2	+	N2H+	-->	HCO2+	Anicich and Huntress, 1986
+3	14	12	1.40E-09	O	+	N2H+	-->	OH+	Anicich and Huntress, 1986
+2	14	5	8.80E-10	CO	+	N2H+	-->	HCO+	Anicich and Huntress, 1986
+5	16	11	2.35E-10	H2	+	HOC+	-->	H3+	Anicich, 1993
+5	16	5	2.35E-10	H2	+	HOC+	-->	HCO+	Anicich, 1993
+2	16	5	6.00E-10	CO	+	HOC+	-->	HCO+	Anicich, 1993
+1	16	15	9.00E-10	CO2	+	HOC+	-->	HCO2+	Anicich, 1993
+5	8	13	7.70E-10	H2	+	Ar+	-->	ArH+	Anicich, 1993
+1	8	1	4.40E-10	CO2	+	Ar+	-->	CO2+	Anicich, 1993
+5	13	11	9.00E-10	H2	+	ArH+	-->	H3+	Anicich, 1993
+2	13	5	1.25E-09	CO	+	ArH+	-->	HCO+	Anicich, 1993
+1	13	15	1.00E-09	CO2	+	ArH+	-->	HCO2+	Anicich, 1993
+6	1	6	5.53E-11	H	+	CO2+	-->	H+	Moses and Bass, 2000
+6	1	5	4.70E-10	H	+	CO2+	-->	HCO+	Krasnopolsky, 2002
+5	1	15	8.70E-10	H2	+	CO2+	-->	HCO2+	Scott et al., 1997
+3	1	3	9.60E-11	O	+	CO2+	-->	O+	Schunk and Nagy, 2009
+3	1	2	1.60E-10	O	+	CO2+	-->	O2+	Schunk and Nagy, 2009
+4	15	14	1.37E-09	N2	+	HCO2+	-->	N2H+	Anicich and Huntress, 1986

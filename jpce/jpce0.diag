@@ -1,0 +1,306 @@
+ Diagnostics for Mars PCE on  7- 7-2021 at  9:40:58.6
+     at an altitude of   337.0 km where the neutral densities are:
+   CO2        CO       O        N2        H2        H        Ar        He        H20
+  2.555E+02 7.897E+02 8.815E+05 8.483E+03
+ 2.555E-03 2.555E-08 2.555E+00 5.380E+00
+ 2.555E-05
+ At this altitude the electron and ion densities are:
+   e-        1-CO2+     2-O2+      3-O+    4-CO+    5-HCO+    6-H+     7-N2+      8-Ar+     9-H2+     10-NO+     11-H3+
+  7.613E+04 1.184E-03 2.720E+00 7.612E+04 1.881E-02 1.655E-08 3.753E-09 6.701E-02 0.000E+00 7.886E-19 4.692E-02 3.373E-21
+   12-OH+    13-ArH+   14-N2H+    15-HCO2+   16-HOC+
+  1.482E-04 3.280E-24 8.089E-09 9.056E-09 1.434E-11
+ The electron temperature =    1000.00000      ==> TFact =   0.300000012      ==> Sqrt(TFact) =   0.547722578    
+ The twelve most densely populated species at this altitude are:
+ Ion numbered  3(O+) with density of  7.612E+04
+ Ion numbered  2(O2+) with density of  2.720E+00
+ Ion numbered  7(N2+) with density of  6.701E-02
+ Ion numbered 10(NO+) with density of  4.692E-02
+ Ion numbered  4(CO+) with density of  1.881E-02
+ Ion numbered  1(CO2+) with density of  1.184E-03
+ Ion numbered 12(OH+) with density of  1.482E-04
+ Ion numbered  5(HCO+) with density of  1.655E-08
+ Ion numbered 15(HCO2+) with density of  9.056E-09
+ Ion numbered 14(N2H+) with density of  8.089E-09
+ Ion numbered  6(H+) with density of  3.753E-09
+ Ion numbered 16(HOC+) with density of  1.434E-11
+
+ The production terms for ion species numbered   1(CO2+)  are:
+ Production from photon and electron impact =  1.560E-05 cm-3/s
+ Production of ion  1(CO2+) from neutral  1(CO2) reacting with ion  7(N2+) =   1.370E-08 cm-3/s=   0.088%
+ Production of ion  1(CO2+) from neutral  1(CO2) reacting with ion  4(CO+) =   4.806E-19 cm-3/s=   0.000%
+ The TOTAL PRODUCTION for ion   1 =  1.561E-05 cm-3/s
+
+ The modified loss terms for ion species numbered   1(CO2+)  are:
+ ModLoss from electron recombination is: 1.296E-02 /s
+ Loss of ion   1(CO2+) from neutral   3(O) reacting to produce ion   2(O2+) =  1.410E-04/s=   1.070%
+ Loss of ion   1(CO2+) from neutral   3(O) reacting to produce ion   3(O+) =  8.462E-05/s=   0.642%
+ Loss of ion   1(CO2+) from neutral   5(H2) reacting to produce ion  15(HCO2+) =  2.223E-12/s=   0.000%
+ Loss of ion   1(CO2+) from neutral   6(H) reacting to produce ion   5(HCO+) =  1.201E-17/s=   0.000%
+ Loss of ion   1(CO2+) from neutral   6(H) reacting to produce ion   6(H+) =  1.413E-18/s=   0.000%
+ The TOTAL modified loss for ion   1 =  1.319E-02 /s
+ The lifetime for ion   1 =  7.584E+01s  and the actual loss rate =  1.561E-05 cm-3/s
+
+
+
+ The production terms for ion species numbered   2(O2+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ Production of ion  2(O2+) from neutral  1(CO2) reacting with ion  3(O+) =   2.139E-02 cm-3/s=  99.999%
+ Production of ion  2(O2+) from neutral  3(O) reacting with ion  1(CO2+) =   1.670E-07 cm-3/s=   0.001%
+ Production of ion  2(O2+) from neutral  3(O) reacting with ion 12(OH+) =   9.273E-08 cm-3/s=   0.000%
+ The TOTAL PRODUCTION for ion   2 =  2.139E-02 cm-3/s
+
+ The modified loss terms for ion species numbered   2(O2+)  are:
+ ModLoss from electron recombination is: 7.866E-03 /s
+ The TOTAL modified loss for ion   2 =  7.866E-03 /s
+ The lifetime for ion   2 =  1.271E+02s  and the actual loss rate =  2.139E-02 cm-3/s
+
+
+
+ The production terms for ion species numbered   3(O+)  are:
+ Production from photon and electron impact =  3.030E-02 cm-3/s
+ Production of ion  3(O+) from neutral  3(O) reacting with ion  4(CO+) =   2.321E-06 cm-3/s=   0.008%
+ Production of ion  3(O+) from neutral  3(O) reacting with ion  7(N2+) =   5.789E-07 cm-3/s=   0.002%
+ Production of ion  3(O+) from neutral  3(O) reacting with ion  1(CO2+) =   1.002E-07 cm-3/s=   0.000%
+ Production of ion  3(O+) from neutral  3(O) reacting with ion  6(H+) =   1.241E-12 cm-3/s=   0.000%
+ The TOTAL PRODUCTION for ion   3 =  3.030E-02 cm-3/s
+
+ The modified loss terms for ion species numbered   3(O+)  are:
+ ModLoss from electron recombination is: 1.068E-07 /s
+ Loss of ion   3(O+) from neutral   1(CO2) reacting to produce ion   2(O2+) =  2.811E-07/s=  70.602%
+ Loss of ion   3(O+) from neutral   4(N2) reacting to produce ion  10(NO+) =  1.018E-08/s=   2.557%
+ Loss of ion   3(O+) from neutral   5(H2) reacting to produce ion  12(OH+) =  4.267E-12/s=   0.001%
+ Loss of ion   3(O+) from neutral   6(H) reacting to produce ion   6(H+) =  1.635E-17/s=   0.000%
+ The TOTAL modified loss for ion   3 =  3.981E-07 /s
+ The lifetime for ion   3 =  2.512E+06s  and the actual loss rate =  3.030E-02 cm-3/s
+
+
+
+ The production terms for ion species numbered   4(CO+)  are:
+ Production from photon and electron impact =  2.180E-04 cm-3/s
+ Production of ion  4(CO+) from neutral  2(CO) reacting with ion 12(OH+) =   4.154E-11 cm-3/s=   0.000%
+ Production of ion  4(CO+) from neutral  2(CO) reacting with ion  9(H2+) =   4.011E-25 cm-3/s=   0.000%
+ The TOTAL PRODUCTION for ion   4 =  2.180E-04 cm-3/s
+
+ The modified loss terms for ion species numbered   4(CO+)  are:
+ ModLoss from electron recombination is: 1.147E-02 /s
+ Loss of ion   4(CO+) from neutral   3(O) reacting to produce ion   3(O+) =  1.234E-04/s=   1.065%
+ Loss of ion   4(CO+) from neutral   5(H2) reacting to produce ion  16(HOC+) =  1.916E-12/s=   0.000%
+ Loss of ion   4(CO+) from neutral   5(H2) reacting to produce ion   5(HCO+) =  1.916E-12/s=   0.000%
+ Loss of ion   4(CO+) from neutral   1(CO2) reacting to produce ion   1(CO2+) =  2.555E-17/s=   0.000%
+ Loss of ion   4(CO+) from neutral   6(H) reacting to produce ion   6(H+) =  1.022E-17/s=   0.000%
+ The TOTAL modified loss for ion   4 =  1.159E-02 /s
+ The lifetime for ion   4 =  8.628E+01s  and the actual loss rate =  2.180E-04 cm-3/s
+
+
+
+ The production terms for ion species numbered   5(HCO+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ Production of ion  5(HCO+) from neutral  2(CO) reacting with ion 12(OH+) =   4.154E-11 cm-3/s=  99.891%
+ Production of ion  5(HCO+) from neutral  5(H2) reacting with ion  4(CO+) =   3.604E-14 cm-3/s=   0.087%
+ Production of ion  5(HCO+) from neutral  2(CO) reacting with ion 14(N2H+) =   5.621E-15 cm-3/s=   0.014%
+ Production of ion  5(HCO+) from neutral  1(CO2) reacting with ion  6(H+) =   3.644E-15 cm-3/s=   0.009%
+ Production of ion  5(HCO+) from neutral  2(CO) reacting with ion 16(HOC+) =   6.795E-18 cm-3/s=   0.000%
+ Production of ion  5(HCO+) from neutral  6(H) reacting with ion  1(CO2+) =   1.422E-20 cm-3/s=   0.000%
+ Production of ion  5(HCO+) from neutral  5(H2) reacting with ion 16(HOC+) =   8.611E-24 cm-3/s=   0.000%
+ Production of ion  5(HCO+) from neutral  2(CO) reacting with ion  9(H2+) =   1.345E-24 cm-3/s=   0.000%
+ Production of ion  5(HCO+) from neutral  2(CO) reacting with ion 11(H3+) =   4.528E-27 cm-3/s=   0.000%
+ Production of ion  5(HCO+) from neutral  2(CO) reacting with ion 13(ArH+) =   3.238E-30 cm-3/s=   0.000%
+ The TOTAL PRODUCTION for ion   5 =  4.158E-11 cm-3/s
+
+ The modified loss terms for ion species numbered   5(HCO+)  are:
+ ModLoss from electron recombination is: 2.512E-03 /s
+ The TOTAL modified loss for ion   5 =  2.512E-03 /s
+ The lifetime for ion   5 =  3.981E+02s  and the actual loss rate =  4.158E-11 cm-3/s
+
+
+
+ The production terms for ion species numbered   6(H+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ Production of ion  6(H+) from neutral  6(H) reacting with ion  3(O+) =   1.245E-12 cm-3/s= 100.000%
+ Production of ion  6(H+) from neutral  6(H) reacting with ion  4(CO+) =   1.922E-19 cm-3/s=   0.000%
+ Production of ion  6(H+) from neutral  6(H) reacting with ion  1(CO2+) =   1.673E-21 cm-3/s=   0.000%
+ Production of ion  6(H+) from neutral  6(H) reacting with ion  9(H2+) =   1.290E-35 cm-3/s=   0.000%
+ The TOTAL PRODUCTION for ion   6 =  1.245E-12 cm-3/s
+
+ The modified loss terms for ion species numbered   6(H+)  are:
+ ModLoss from electron recombination is: 1.383E-07 /s
+ Loss of ion   6(H+) from neutral   3(O) reacting to produce ion   3(O+) =  3.306E-04/s=  99.666%
+ Loss of ion   6(H+) from neutral   1(CO2) reacting to produce ion   5(HCO+) =  9.709E-07/s=   0.293%
+ Loss of ion   6(H+) from neutral   5(H2) reacting to produce ion   9(H2+) =  2.555E-12/s=   0.000%
+ The TOTAL modified loss for ion   6 =  3.317E-04 /s
+ The lifetime for ion   6 =  3.015E+03s  and the actual loss rate =  1.245E-12 cm-3/s
+
+
+
+ The production terms for ion species numbered   7(N2+)  are:
+ Production from photon and electron impact =  7.100E-04 cm-3/s
+ The TOTAL PRODUCTION for ion   7 =  7.100E-04 cm-3/s
+
+ The modified loss terms for ion species numbered   7(N2+)  are:
+ ModLoss from electron recombination is: 1.047E-02 /s
+ Loss of ion   7(N2+) from neutral   3(O) reacting to produce ion  10(NO+) =  1.146E-04/s=   1.082%
+ Loss of ion   7(N2+) from neutral   3(O) reacting to produce ion   3(O+) =  8.639E-06/s=   0.082%
+ Loss of ion   7(N2+) from neutral   1(CO2) reacting to produce ion   1(CO2+) =  2.044E-07/s=   0.002%
+ Loss of ion   7(N2+) from neutral   5(H2) reacting to produce ion  14(N2H+) =  5.110E-12/s=   0.000%
+ The TOTAL modified loss for ion   7 =  1.060E-02 /s
+ The lifetime for ion   7 =  9.438E+01s  and the actual loss rate =  7.100E-04 cm-3/s
+
+
+
+ The production terms for ion species numbered   8(Ar+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ The TOTAL PRODUCTION for ion   8 =  0.000E+00 cm-3/s
+
+ The modified loss terms for ion species numbered   8(Ar+)  are:
+ ModLoss from electron recombination is: 7.613E-05 /s
+ Loss of ion   8(Ar+) from neutral   1(CO2) reacting to produce ion   1(CO2+) =  1.124E-07/s=   0.147%
+ Loss of ion   8(Ar+) from neutral   5(H2) reacting to produce ion  13(ArH+) =  1.967E-12/s=   0.000%
+ The TOTAL modified loss for ion   8 =  7.624E-05 /s
+ The lifetime for ion   8 =  1.312E+04s  and the actual loss rate =  0.000E+00 cm-3/s
+
+
+
+ The production terms for ion species numbered   9(H2+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ Production of ion  9(H2+) from neutral  5(H2) reacting with ion  6(H+) =   9.589E-21 cm-3/s= 100.000%
+ The TOTAL PRODUCTION for ion   9 =  9.589E-21 cm-3/s
+
+ The modified loss terms for ion species numbered   9(H2+)  are:
+ ModLoss from electron recombination is: 1.082E-02 /s
+ Loss of ion   9(H2+) from neutral   3(O) reacting to produce ion  12(OH+) =  1.322E-03/s=  10.874%
+ Loss of ion   9(H2+) from neutral   4(N2) reacting to produce ion  14(N2H+) =  1.697E-05/s=   0.140%
+ Loss of ion   9(H2+) from neutral   2(CO) reacting to produce ion   5(HCO+) =  1.706E-06/s=   0.014%
+ Loss of ion   9(H2+) from neutral   1(CO2) reacting to produce ion  15(HCO2+) =  6.004E-07/s=   0.005%
+ Loss of ion   9(H2+) from neutral   2(CO) reacting to produce ion   4(CO+) =  5.086E-07/s=   0.004%
+ Loss of ion   9(H2+) from neutral   7(Ar) reacting to produce ion  13(ArH+) =  3.168E-09/s=   0.000%
+ Loss of ion   9(H2+) from neutral   5(H2) reacting to produce ion  11(H3+) =  5.110E-12/s=   0.000%
+ Loss of ion   9(H2+) from neutral   6(H) reacting to produce ion   6(H+) =  1.635E-17/s=   0.000%
+ The TOTAL modified loss for ion   9 =  1.216E-02 /s
+ The lifetime for ion   9 =  8.224E+01s  and the actual loss rate =  9.589E-21 cm-3/s
+
+
+
+ The production terms for ion species numbered  10(NO+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ Production of ion 10(NO+) from neutral  4(N2) reacting with ion  3(O+) =   7.749E-04 cm-3/s=  99.019%
+ Production of ion 10(NO+) from neutral  3(O) reacting with ion  7(N2+) =   7.679E-06 cm-3/s=   0.981%
+ The TOTAL PRODUCTION for ion  10 =  7.826E-04 cm-3/s
+
+ The modified loss terms for ion species numbered  10(NO+)  are:
+ ModLoss from electron recombination is: 1.668E-02 /s
+ The TOTAL modified loss for ion  10 =  1.668E-02 /s
+ The lifetime for ion  10 =  5.996E+01s  and the actual loss rate =  7.826E-04 cm-3/s
+
+
+
+ The production terms for ion species numbered  11(H3+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ Production of ion 11(H3+) from neutral  5(H2) reacting with ion 16(HOC+) =   8.611E-24 cm-3/s= 100.000%
+ Production of ion 11(H3+) from neutral  5(H2) reacting with ion  9(H2+) =   4.030E-30 cm-3/s=   0.000%
+ Production of ion 11(H3+) from neutral  5(H2) reacting with ion 13(ArH+) =   7.543E-36 cm-3/s=   0.000%
+ The TOTAL PRODUCTION for ion  11 =  8.611E-24 cm-3/s
+
+ The modified loss terms for ion species numbered  11(H3+)  are:
+ ModLoss from electron recombination is: 1.835E-03 /s
+ Loss of ion  11(H3+) from neutral   3(O) reacting to produce ion  12(OH+) =  7.052E-04/s=  27.625%
+ Loss of ion  11(H3+) from neutral   4(N2) reacting to produce ion  14(N2H+) =  1.103E-05/s=   0.432%
+ Loss of ion  11(H3+) from neutral   2(CO) reacting to produce ion   5(HCO+) =  1.342E-06/s=   0.053%
+ Loss of ion  11(H3+) from neutral   1(CO2) reacting to produce ion  15(HCO2+) =  5.110E-07/s=   0.020%
+ Loss of ion  11(H3+) from neutral   7(Ar) reacting to produce ion  13(ArH+) =  9.326E-10/s=   0.000%
+ The TOTAL modified loss for ion  11 =  2.553E-03 /s
+ The lifetime for ion  11 =  3.917E+02s  and the actual loss rate =  8.609E-24 cm-3/s
+
+
+
+ The production terms for ion species numbered  12(OH+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ Production of ion 12(OH+) from neutral  5(H2) reacting with ion  3(O+) =   3.248E-07 cm-3/s=  99.997%
+ Production of ion 12(OH+) from neutral  3(O) reacting with ion 14(N2H+) =   9.982E-12 cm-3/s=   0.003%
+ Production of ion 12(OH+) from neutral  3(O) reacting with ion  9(H2+) =   1.043E-21 cm-3/s=   0.000%
+ Production of ion 12(OH+) from neutral  3(O) reacting with ion 11(H3+) =   2.378E-24 cm-3/s=   0.000%
+ The TOTAL PRODUCTION for ion  12 =  3.248E-07 cm-3/s
+
+ The modified loss terms for ion species numbered  12(OH+)  are:
+ ModLoss from electron recombination is: 1.564E-03 /s
+ Loss of ion  12(OH+) from neutral   3(O) reacting to produce ion   2(O2+) =  6.259E-04/s=  28.548%
+ Loss of ion  12(OH+) from neutral   4(N2) reacting to produce ion  14(N2H+) =  2.036E-06/s=   0.093%
+ Loss of ion  12(OH+) from neutral   1(CO2) reacting to produce ion  15(HCO2+) =  2.811E-07/s=   0.013%
+ Loss of ion  12(OH+) from neutral   2(CO) reacting to produce ion   5(HCO+) =  2.803E-07/s=   0.013%
+ Loss of ion  12(OH+) from neutral   2(CO) reacting to produce ion   4(CO+) =  2.803E-07/s=   0.013%
+ The TOTAL modified loss for ion  12 =  2.192E-03 /s
+ The lifetime for ion  12 =  4.561E+02s  and the actual loss rate =  3.248E-07 cm-3/s
+
+
+
+ The production terms for ion species numbered  13(ArH+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ Production of ion 13(ArH+) from neutral  7(Ar) reacting with ion  9(H2+) =   2.498E-27 cm-3/s=  99.874%
+ Production of ion 13(ArH+) from neutral  7(Ar) reacting with ion 11(H3+) =   3.145E-30 cm-3/s=   0.126%
+ The TOTAL PRODUCTION for ion  13 =  2.502E-27 cm-3/s
+
+ The modified loss terms for ion species numbered  13(ArH+)  are:
+ ModLoss from electron recombination is: 7.613E-04 /s
+ Loss of ion  13(ArH+) from neutral   2(CO) reacting to produce ion   5(HCO+) =  9.871E-07/s=   0.129%
+ Loss of ion  13(ArH+) from neutral   1(CO2) reacting to produce ion  15(HCO2+) =  2.555E-07/s=   0.034%
+ Loss of ion  13(ArH+) from neutral   5(H2) reacting to produce ion  11(H3+) =  2.300E-12/s=   0.000%
+ The TOTAL modified loss for ion  13 =  7.625E-04 /s
+ The lifetime for ion  13 =  1.311E+03s  and the actual loss rate =  2.501E-27 cm-3/s
+
+
+
+ The production terms for ion species numbered  14(N2H+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ Production of ion 14(N2H+) from neutral  4(N2) reacting with ion 12(OH+) =   3.016E-10 cm-3/s=  99.852%
+ Production of ion 14(N2H+) from neutral  5(H2) reacting with ion  7(N2+) =   3.424E-13 cm-3/s=   0.113%
+ Production of ion 14(N2H+) from neutral  4(N2) reacting with ion 15(HCO2+) =   1.052E-13 cm-3/s=   0.035%
+ Production of ion 14(N2H+) from neutral  4(N2) reacting with ion  9(H2+) =   1.338E-23 cm-3/s=   0.000%
+ Production of ion 14(N2H+) from neutral  4(N2) reacting with ion 11(H3+) =   3.719E-26 cm-3/s=   0.000%
+ The TOTAL PRODUCTION for ion  14 =  3.021E-10 cm-3/s
+
+ The modified loss terms for ion species numbered  14(N2H+)  are:
+ ModLoss from electron recombination is: 3.611E-02 /s
+ Loss of ion  14(N2H+) from neutral   3(O) reacting to produce ion  12(OH+) =  1.234E-03/s=   3.305%
+ Loss of ion  14(N2H+) from neutral   2(CO) reacting to produce ion   5(HCO+) =  6.949E-07/s=   0.002%
+ Loss of ion  14(N2H+) from neutral   1(CO2) reacting to produce ion  15(HCO2+) =  3.577E-07/s=   0.001%
+ The TOTAL modified loss for ion  14 =  3.734E-02 /s
+ The lifetime for ion  14 =  2.678E+01s  and the actual loss rate =  3.021E-10 cm-3/s
+
+
+
+ The production terms for ion species numbered  15(HCO2+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ Production of ion 15(HCO2+) from neutral  1(CO2) reacting with ion 12(OH+) =   4.164E-11 cm-3/s=  99.987%
+ Production of ion 15(HCO2+) from neutral  1(CO2) reacting with ion 14(N2H+) =   2.893E-15 cm-3/s=   0.007%
+ Production of ion 15(HCO2+) from neutral  5(H2) reacting with ion  1(CO2+) =   2.632E-15 cm-3/s=   0.006%
+ Production of ion 15(HCO2+) from neutral  1(CO2) reacting with ion 16(HOC+) =   3.298E-18 cm-3/s=   0.000%
+ Production of ion 15(HCO2+) from neutral  1(CO2) reacting with ion  9(H2+) =   4.735E-25 cm-3/s=   0.000%
+ Production of ion 15(HCO2+) from neutral  1(CO2) reacting with ion 11(H3+) =   1.723E-27 cm-3/s=   0.000%
+ Production of ion 15(HCO2+) from neutral  1(CO2) reacting with ion 13(ArH+) =   8.381E-31 cm-3/s=   0.000%
+ The TOTAL PRODUCTION for ion  15 =  4.165E-11 cm-3/s
+
+ The modified loss terms for ion species numbered  15(HCO2+)  are:
+ ModLoss from electron recombination is: 4.587E-03 /s
+ Loss of ion  15(HCO2+) from neutral   4(N2) reacting to produce ion  14(N2H+) =  1.162E-05/s=   0.253%
+ The TOTAL modified loss for ion  15 =  4.598E-03 /s
+ The lifetime for ion  15 =  2.175E+02s  and the actual loss rate =  4.164E-11 cm-3/s
+
+
+
+ The production terms for ion species numbered  16(HOC+)  are:
+ Production from photon and electron impact =  0.000E+00 cm-3/s
+ Production of ion 16(HOC+) from neutral  5(H2) reacting with ion  4(CO+) =   3.604E-14 cm-3/s= 100.000%
+ The TOTAL PRODUCTION for ion  16 =  3.604E-14 cm-3/s
+
+ The modified loss terms for ion species numbered  16(HOC+)  are:
+ ModLoss from electron recombination is: 2.512E-03 /s
+ Loss of ion  16(HOC+) from neutral   2(CO) reacting to produce ion   5(HCO+) =  4.738E-07/s=   0.019%
+ Loss of ion  16(HOC+) from neutral   1(CO2) reacting to produce ion  15(HCO2+) =  2.300E-07/s=   0.009%
+ Loss of ion  16(HOC+) from neutral   5(H2) reacting to produce ion  11(H3+) =  6.004E-13/s=   0.000%
+ Loss of ion  16(HOC+) from neutral   5(H2) reacting to produce ion   5(HCO+) =  6.004E-13/s=   0.000%
+ The TOTAL modified loss for ion  16 =  2.513E-03 /s
+ The lifetime for ion  16 =  3.979E+02s  and the actual loss rate =  3.604E-14 cm-3/s
+
+
+
+
+
