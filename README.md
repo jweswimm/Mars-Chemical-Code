@@ -1,2 +1,2 @@
 # Mars-Chemical_code
-This chemical code was used to create ion density profiles in the Martian atmosphere
+This chemical code was used to create ion density profiles in the Martian atmosphere. This was done during my undergraduate work with Dr. Thomas Cravens and PhD Candidate Tony Renzaglia at the University of Kansas. See American Geophysical Union abstract here: https://agu.confex.com/agu/fm21/meetingapp.cgi/Paper/825777 titled "The Effect of Nitrogen Chemistry on Photochemical Escape of Oxygen from Mars"
